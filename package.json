@@ -4,7 +4,7 @@
   "description": "Batch request markdown files from the file system and parse them using marked",
   "main": "./lib/batched-markdown.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
     "batch",
     "multiple",
     "markdown",
-    "html"
+    "html",
+    "md",
+    ".md"
   ],
   "author": "Chris Lee <chris.leeshanok@gmail.com>",
   "license": "MIT",
@@ -28,5 +30,9 @@
   "dependencies": {
     "fs": "0.0.2",
     "marked": "^0.3.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   }
 }
