@@ -1,6 +1,6 @@
 {
   "name": "batched-markdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Batch request markdown files from the file system and parse them using marked",
   "main": "./lib/batched-markdown.js",
   "scripts": {
