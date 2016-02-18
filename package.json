@@ -1,0 +1,32 @@
+{
+  "name": "batched-markdown",
+  "version": "1.0.0",
+  "description": "Batch request markdown files from the file system and parse them using marked",
+  "main": "./lib/batched-markdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisleeshanok/batched-markdown.git"
+  },
+  "keywords": [
+    "markdown",
+    "marked",
+    "fs",
+    "batch",
+    "multiple",
+    "markdown",
+    "html"
+  ],
+  "author": "Chris Lee <chris.leeshanok@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisleeshanok/batched-markdown/issues"
+  },
+  "homepage": "https://github.com/chrisleeshanok/batched-markdown#readme",
+  "dependencies": {
+    "fs": "0.0.2",
+    "marked": "^0.3.5"
+  }
+}
